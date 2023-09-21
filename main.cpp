@@ -18,14 +18,3 @@ void Output_game_field(char gF[3][3]){
 
     }
 }
-
-
-int main(){
-    char gF[3][3];
-    for(int x =0; x<3; x++){
-        for(int y =0; y<3; y++){
-            gF[x][y] = 'X';
-        }
-    }
-    Output_game_field(gF);
-}
