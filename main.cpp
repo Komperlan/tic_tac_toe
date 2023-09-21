@@ -7,6 +7,7 @@ int main(){
             gF[x][y] = '_';
         }
     }
+
     while(CheckGameState(gF) == "Game`s Continue"){
         PlayerTurn(gF);
         if(CheckGameState(gF) == "Game`s Continue"){
