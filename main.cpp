@@ -162,4 +162,12 @@ int AITurn(char gF[3][3]){
         *gF_address = 'O';
         return 0;
     }
+    for (int i = 0; i < 3; ++i){
+        for (int j = 0; j < 3; ++j){
+            if (gF[i][j] == '_'){
+                char *gF_address = &gF[i][j];
+                *gF_address = 'O';
+            }
+        }
+    }
 }
