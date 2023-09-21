@@ -1,3 +1,4 @@
-//
-// Created by legio on 21.09.2023.
-//
+#include <iostream>
+int main(){
+    std::cout<<"GG";
+}
